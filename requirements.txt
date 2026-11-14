@@ -1,0 +1,3 @@
+yfinance>=0.2.40
+# optional, only for ENABLE_VIDEO=1 slides:
+# matplotlib>=3.8

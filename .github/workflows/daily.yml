@@ -1,0 +1,99 @@
+name: Daily market post
+
+on:
+  schedule:
+    - cron: "0 11 * * 1-5"   # 11:00 UTC = 16:30 IST, Mon-Fri (GitHub may start it a few minutes late)
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Force a run on a non-trading day / regenerate today's post"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write    # commit generated data back to the repo
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-market-post
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      gen_outcome: ${{ steps.gen.outcome }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            requirements-dev.txt
+
+      - run: pip install -r requirements.txt -r requirements-dev.txt
+
+      - name: Tests (a broken filter must never publish)
+        run: python -m pytest -q
+
+      # continue-on-error so the site is still published and committed; the `verdict` job
+      # then fails the workflow, which is what triggers GitHub's failure email.
+      - name: Generate posts
+        id: gen
+        continue-on-error: true
+        env:
+          UPSTOX_ACCESS_TOKEN: ${{ secrets.UPSTOX_ACCESS_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          SITE_BASE_PATH: ${{ vars.SITE_BASE_PATH }}
+          SITE_NAME: ${{ vars.SITE_NAME }}
+          SITE_AUTHOR: ${{ vars.SITE_AUTHOR }}
+          CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
+          ENABLE_VIDEO: ${{ vars.ENABLE_VIDEO }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID_EN: ${{ vars.ELEVENLABS_VOICE_ID_EN }}
+          ELEVENLABS_VOICE_ID_HI: ${{ vars.ELEVENLABS_VOICE_ID_HI }}
+        run: python -m marketdaily ${{ inputs.force && '--force' || '' }}
+
+      - name: Commit generated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data data.json
+          if git diff --cached --quiet; then
+            echo "nothing new to commit"
+          else
+            git commit -m "Daily market data and posts $(date -u +%F)"
+            git pull --rebase --autostash
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  verdict:
+    # Fails the run (-> email) when generation failed OR used fallback data (exit code 3).
+    needs: [build, deploy]
+    if: always() && needs.build.outputs.gen_outcome != 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "::error::Generation did not finish cleanly (Upstox token expired, a data source failed, or an error). See the 'Generate posts' step in the build job."
+          exit 1
