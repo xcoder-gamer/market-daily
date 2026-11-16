@@ -1,0 +1,384 @@
+{
+ "date": "2026-11-13",
+ "source": "fallback",
+ "facts": {
+  "date": "2026-11-13",
+  "source": "fallback",
+  "indices": {
+   "nifty50": {
+    "name": "NIFTY 50",
+    "date": "2026-11-13",
+    "last": 25144.30078125,
+    "change": -155.048828125,
+    "change_pct": -0.6128569726849609,
+    "changes": {
+     "1d": -0.6128569726849609,
+     "1w": 2.4767130798466708,
+     "1m": 10.660844011133918,
+     "6m": 7.396449778185166,
+     "1y": -1.7710594623209563
+    },
+    "ma": {
+     "20": 23642.282421875,
+     "50": 23331.791875,
+     "200": 23991.757236328125
+    },
+    "rsi14": 75.98987006435465,
+    "high52": 26373.19921875,
+    "low52": 22179.900390625,
+    "from_high_pct": -4.659648711204955,
+    "from_low_pct": 13.365255652266118,
+    "range_pos": 70.69375477708341,
+    "range_is_partial": false,
+    "vol": {
+     "daily_pct": 0.9671515416471029,
+     "annual_pct": 15.353054755865776
+    },
+    "similar": {
+     "date": "2026-02-27",
+     "close": 25178.650390625
+    }
+   },
+   "sensex": {
+    "name": "SENSEX",
+    "date": "2026-11-13",
+    "last": 81592.453125,
+    "change": -318.5546875,
+    "change_pct": -0.3889033916286255,
+    "changes": {
+     "1d": -0.3889033916286255,
+     "1w": 2.877878057831018,
+     "1m": 11.718785099874584,
+     "6m": 9.360102341907805,
+     "1y": -2.2366575114265763
+    },
+    "ma": {
+     "20": 76439.1140625,
+     "50": 74987.04578125,
+     "200": 77066.24671875
+    },
+    "rsi14": 78.57840071644905,
+    "high52": 86159.0234375,
+    "low52": 71292.8828125,
+    "from_high_pct": -5.3001648931322975,
+    "from_low_pct": 14.446842245933333,
+    "range_pos": 69.28207241077406,
+    "range_is_partial": false,
+    "vol": {
+     "daily_pct": 1.0359621785265674,
+     "annual_pct": 16.44538975229997
+    },
+    "similar": {
+     "date": "2026-02-27",
+     "close": 81287.1875
+    }
+   },
+   "banknifty": {
+    "name": "BANK NIFTY",
+    "date": "2026-11-13",
+    "last": 61034.1015625,
+    "change": -484.3984375,
+    "change_pct": -0.7874028747449913,
+    "changes": {
+     "1d": -0.7874028747449913,
+     "1w": 5.643495284060496,
+     "1m": 10.008914220360566,
+     "6m": 14.176017813666487,
+     "1y": 5.545935229139953
+    },
+    "ma": {
+     "20": 56496.9947265625,
+     "50": 56109.34984375,
+     "200": 56659.15849609375
+    },
+    "rsi14": 76.70306079767187,
+    "high52": 61764.8515625,
+    "low52": 49954.8515625,
+    "from_high_pct": -1.1831162570844267,
+    "from_low_pct": 22.178526516365316,
+    "range_pos": 93.81244707874683,
+    "range_is_partial": false,
+    "vol": {
+     "daily_pct": 1.1509781368254692,
+     "annual_pct": 18.27121148707599
+    },
+    "similar": {
+     "date": "2026-02-26",
+     "close": 61187.69921875
+    }
+   },
+   "niftyit": {
+    "name": "NIFTY IT",
+    "date": "2026-11-13",
+    "last": 31931.150390625,
+    "change": -232.400390625,
+    "change_pct": -0.7225582529913899,
+    "changes": {
+     "1d": -0.7225582529913899,
+     "1w": -2.7611464475661096,
+     "1m": 7.043391771275487,
+     "6m": 14.380306891503558,
+     "1y": -9.478222448128715
+    },
+    "ma": {
+     "20": 32143.9826171875,
+     "50": 30260.2410546875,
+     "200": 30399.825810546874
+    },
+    "rsi14": 54.71855441314024,
+    "high52": 40301.3984375,
+    "low52": 25699.099609375,
+    "from_high_pct": -20.769125567331624,
+    "from_low_pct": 24.250074422749645,
+    "range_pos": 42.678559414539954,
+    "range_is_partial": false,
+    "vol": {
+     "daily_pct": 1.6404456843606254,
+     "annual_pct": 26.04126792076425
+    },
+    "similar": {
+     "date": "2026-08-11",
+     "close": 31823.150390625
+    }
+   }
+  },
+  "gainers": [
+   {
+    "symbol": "EICHERMOT",
+    "change_pct": 1.34,
+    "last": 7650.0
+   },
+   {
+    "symbol": "HINDUNILVR",
+    "change_pct": 0.96,
+    "last": 1992.9
+   },
+   {
+    "symbol": "ASIANPAINT",
+    "change_pct": 0.53,
+    "last": 2550.0
+   },
+   {
+    "symbol": "BHARTIARTL",
+    "change_pct": 0.48,
+    "last": 2106.0
+   },
+   {
+    "symbol": "ITC",
+    "change_pct": 0.33,
+    "last": 285.0
+   }
+  ],
+  "losers": [
+   {
+    "symbol": "SHRIRAMFIN",
+    "change_pct": -3.37,
+    "last": 970.0
+   },
+   {
+    "symbol": "TMPV",
+    "change_pct": -3.31,
+    "last": 287.4
+   },
+   {
+    "symbol": "GRASIM",
+    "change_pct": -2.6,
+    "last": 3034.0
+   },
+   {
+    "symbol": "HINDALCO",
+    "change_pct": -2.12,
+    "last": 943.6
+   },
+   {
+    "symbol": "ADANIENT",
+    "change_pct": -1.95,
+    "last": 2688.0
+   }
+  ],
+  "commodities": {
+   "gold": {
+    "name": "Gold (USD/oz)",
+    "last": 3856.5,
+    "change_pct": -0.77
+   },
+   "silver": {
+    "name": "Silver (USD/oz)",
+    "last": 46.91,
+    "change_pct": -4.33
+   },
+   "crude": {
+    "name": "Crude oil WTI (USD/bbl)",
+    "last": 85.57,
+    "change_pct": -3.38
+   },
+   "usdinr": {
+    "name": "USD/INR",
+    "last": 93.91,
+    "change_pct": -0.13
+   }
+  }
+ },
+ "meta": {
+  "en": {
+   "method": "template",
+   "attempts": 0,
+   "violations": [],
+   "note": "no ANTHROPIC_API_KEY; used template"
+  },
+  "hi": {
+   "method": "template",
+   "attempts": 0,
+   "violations": [],
+   "note": "no ANTHROPIC_API_KEY; used template"
+  }
+ },
+ "en": {
+  "title": "NIFTY 50 closes lower at 25,144.30 (-0.61%): market wrap for 13 Nov 2026",
+  "summary": [
+   "NIFTY 50 ended down 0.61% at 25,144.30; SENSEX -0.39%, BANK NIFTY -0.79%, NIFTY IT -0.72%.",
+   "It sits 4.7% below its 52-week high, and RSI is 76 (in the 'stretched upward' zone)."
+  ],
+  "what_happened": [
+   "NIFTY 50 closed at 25,144.30 (-0.61%). SENSEX closed at 81,592.45 (-0.39%). BANK NIFTY closed at 61,034.10 (-0.79%). NIFTY IT closed at 31,931.15 (-0.72%).",
+   "Top NIFTY 50 gainers: EICHERMOT (+1.34%), HINDUNILVR (+0.96%), ASIANPAINT (+0.53%). Top losers: SHRIRAMFIN (-3.37%), TMPV (-3.31%), GRASIM (-2.60%).",
+   "Elsewhere: Gold (USD/oz) 3,856.50 (-0.77%); Silver (USD/oz) 46.91 (-4.33%); Crude oil WTI (USD/bbl) 85.57 (-3.38%); USD/INR 93.91 (-0.13%)."
+  ],
+  "history": [
+   "Over the past week, month, six months and year, NIFTY 50 has moved +2.48%, +10.66%, +7.40% and -1.77%.",
+   "Its 52-week range is 22,179.90 to 26,373.20; today's close is at 71% of that range, 4.7% below the high and 13.4% above the low.",
+   "The index closed above its 20-day average (23,642.28), above its 50-day average (23,331.79), above its 200-day average (23,991.76). Moving averages describe the recent trend; they do not forecast it.",
+   "Last time NIFTY 50 closed near this level was on 27 Feb 2026 (around 25,179).",
+   "Volatility over the last 20 sessions averaged 0.97% a day, or about 15% annualised."
+  ],
+  "news": [
+   {
+    "title": "AI and 24-Hour Trading Test Rules Governing Currency Markets",
+    "impact": "neutral",
+    "why": "Included for context. Headlines like this can shift sentiment, but a single headline rarely tells the whole story.",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/ai-and-24-hour-trading-test-rules-governing-currency-markets-11794859627930.html"
+   },
+   {
+    "title": "Wheat hovers near multi-month lows on firmer dollar; soybeans sag",
+    "impact": "neutral",
+    "why": "Included for context. Headlines like this can shift sentiment, but a single headline rarely tells the whole story.",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/wheat-hovers-near-multi-month-lows-on-firmer-dollar-soybeans-sag-11794857096191.html"
+   },
+   {
+    "title": "Canadian dollar hits 19-month low on tame inflation report",
+    "impact": "neutral",
+    "why": "Included for context. Headlines like this can shift sentiment, but a single headline rarely tells the whole story.",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/canadian-dollar-hits-19-month-low-on-tame-inflation-report-11794855720637.html"
+   },
+   {
+    "title": "Wall Street update: Why Walmart, Home Depot, Target, Lowe's stocks are in focus this week | Q3 earnings latest news",
+    "impact": "neutral",
+    "why": "Included for context. Headlines like this can shift sentiment, but a single headline rarely tells the whole story.",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/stock-market-news/wall-street-update-why-walmart-home-depot-target-lowes-stocks-are-in-focus-this-week-q3-earnings-latest-news-11794849291449.html"
+   },
+   {
+    "title": "Interest in Trump's meme coin dinner fades as $TRUMP sinks to record lows",
+    "impact": "neutral",
+    "why": "Included for context. Headlines like this can shift sentiment, but a single headline rarely tells the whole story.",
+    "source": "Economic Times",
+    "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/interest-in-trumps-meme-coin-dinner-fades-as-trump-sinks-to-record-lows/articleshow/135899741.cms"
+   }
+  ],
+  "pov": {
+   "bull": [
+    "NIFTY 50 is above its 200-day average, which some readers take as a sign the longer trend is intact.",
+    "Over six months the index is +7.40%, which shows participation has been broad enough to build gains.",
+    "One optimistic reading is that steady company earnings and regular domestic investor inflows have often supported markets."
+   ],
+   "bear": [
+    "RSI at 76 is in the 'stretched upward' zone, and markets can pause after such runs.",
+    "One cautious reading is that global events, higher crude oil or sharp currency moves can unsettle markets quickly."
+   ],
+   "closing": "These are only observations, not advice. Please do your own analysis before making any decision."
+  },
+  "watch": [
+   "Global cues: how US and Asian markets open, since Indian markets often respond to them.",
+   "FII and DII flows, which the exchanges publish after the close.",
+   "Crude oil and USD/INR, which affect inflation expectations and company costs.",
+   "How NIFTY 50 behaves around its 20-day average (23,642.28), a short-term support/resistance reference many chart readers use."
+  ]
+ },
+ "hi": {
+  "title": "NIFTY 50 25,144.30 पर बंद, गिरावट -0.61%: 13 नवंबर 2026 का बाज़ार सार",
+  "summary": [
+   "NIFTY 50 25,144.30 पर बंद हुआ, 0.61% की गिरावट; SENSEX -0.39%, BANK NIFTY -0.79%, NIFTY IT -0.72%।",
+   "यह अपने 52 हफ़्ते के उच्च स्तर से 4.7% नीचे है, और RSI 76 है ('ज़्यादा खिंचे हुए' क्षेत्र में)।"
+  ],
+  "what_happened": [
+   "NIFTY 50 25,144.30 पर बंद (-0.61%)। SENSEX 81,592.45 पर बंद (-0.39%)। BANK NIFTY 61,034.10 पर बंद (-0.79%)। NIFTY IT 31,931.15 पर बंद (-0.72%)।",
+   "NIFTY 50 के टॉप गेनर: EICHERMOT (+1.34%), HINDUNILVR (+0.96%), ASIANPAINT (+0.53%)। टॉप लूज़र: SHRIRAMFIN (-3.37%), TMPV (-3.31%), GRASIM (-2.60%)।",
+   "बाकी बाज़ार: Gold (USD/oz) 3,856.50 (-0.77%); Silver (USD/oz) 46.91 (-4.33%); Crude oil WTI (USD/bbl) 85.57 (-3.38%); USD/INR 93.91 (-0.13%)।"
+  ],
+  "history": [
+   "पिछले हफ़्ते, महीने, छह महीने और साल में NIFTY 50 का बदलाव +2.48%, +10.66%, +7.40% और -1.77% रहा है।",
+   "इसकी 52 हफ़्ते की रेंज 22,179.90 से 26,373.20 है; आज का बंद भाव इस रेंज के 71% पर है, यानी उच्च स्तर से 4.7% नीचे और निम्न स्तर से 13.4% ऊपर।",
+   "सूचकांक 20 दिन के औसत (23,642.28) से ऊपर, 50 दिन के औसत (23,331.79) से ऊपर, 200 दिन के औसत (23,991.76) से ऊपर बंद हुआ। मूविंग एवरेज हाल का रुझान बताते हैं, भविष्य का अनुमान नहीं।",
+   "पिछली बार NIFTY 50 इस स्तर के आसपास 27 फ़रवरी 2026 को बंद हुआ था (लगभग 25,179)।",
+   "पिछले 20 सत्रों में रोज़ का उतार-चढ़ाव औसतन 0.97% रहा, यानी सालाना आधार पर लगभग 15%।"
+  ],
+  "news": [
+   {
+    "title": "AI and 24-Hour Trading Test Rules Governing Currency Markets",
+    "impact": "neutral",
+    "why": "संदर्भ के लिए शामिल। ऐसी ख़बरें माहौल बदल सकती हैं, पर अकेली हेडलाइन पूरी कहानी कम ही बताती है।",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/ai-and-24-hour-trading-test-rules-governing-currency-markets-11794859627930.html"
+   },
+   {
+    "title": "Wheat hovers near multi-month lows on firmer dollar; soybeans sag",
+    "impact": "neutral",
+    "why": "संदर्भ के लिए शामिल। ऐसी ख़बरें माहौल बदल सकती हैं, पर अकेली हेडलाइन पूरी कहानी कम ही बताती है।",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/wheat-hovers-near-multi-month-lows-on-firmer-dollar-soybeans-sag-11794857096191.html"
+   },
+   {
+    "title": "Canadian dollar hits 19-month low on tame inflation report",
+    "impact": "neutral",
+    "why": "संदर्भ के लिए शामिल। ऐसी ख़बरें माहौल बदल सकती हैं, पर अकेली हेडलाइन पूरी कहानी कम ही बताती है।",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/canadian-dollar-hits-19-month-low-on-tame-inflation-report-11794855720637.html"
+   },
+   {
+    "title": "Wall Street update: Why Walmart, Home Depot, Target, Lowe's stocks are in focus this week | Q3 earnings latest news",
+    "impact": "neutral",
+    "why": "संदर्भ के लिए शामिल। ऐसी ख़बरें माहौल बदल सकती हैं, पर अकेली हेडलाइन पूरी कहानी कम ही बताती है।",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/stock-market-news/wall-street-update-why-walmart-home-depot-target-lowes-stocks-are-in-focus-this-week-q3-earnings-latest-news-11794849291449.html"
+   },
+   {
+    "title": "Interest in Trump's meme coin dinner fades as $TRUMP sinks to record lows",
+    "impact": "neutral",
+    "why": "संदर्भ के लिए शामिल। ऐसी ख़बरें माहौल बदल सकती हैं, पर अकेली हेडलाइन पूरी कहानी कम ही बताती है।",
+    "source": "Economic Times",
+    "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/interest-in-trumps-meme-coin-dinner-fades-as-trump-sinks-to-record-lows/articleshow/135899741.cms"
+   }
+  ],
+  "pov": {
+   "bull": [
+    "NIFTY 50 अपने 200 दिन के औसत से ऊपर है, जिसे कुछ लोग लंबे रुझान के मज़बूत रहने का संकेत मानते हैं।",
+    "छह महीने में सूचकांक +7.40% रहा है, जो बताता है कि बढ़त को काफ़ी लोगों का साथ मिला।",
+    "उम्मीद वाला एक नज़रिया यह है कि कंपनियों की स्थिर कमाई और घरेलू निवेशकों के नियमित निवेश ने अक्सर बाज़ार को सहारा दिया है।"
+   ],
+   "bear": [
+    "RSI 76 पर 'ज़्यादा खिंचे हुए' क्षेत्र में है, और ऐसी तेज़ी के बाद बाज़ार थम भी सकता है।",
+    "सावधानी वाला एक नज़रिया यह है कि वैश्विक घटनाएँ, कच्चे तेल की महँगाई या रुपये की तेज़ चाल बाज़ार को जल्दी बेचैन कर सकती हैं।"
+   ],
+   "closing": "ये केवल मेरे अवलोकन हैं, सलाह नहीं। कोई भी निर्णय लेने से पहले कृपया अपना विश्लेषण खुद करें।"
+  },
+  "watch": [
+   "वैश्विक संकेत: अमेरिकी और एशियाई बाज़ार कैसे खुलते हैं, क्योंकि भारतीय बाज़ार अक्सर उन पर प्रतिक्रिया देता है।",
+   "FII और DII का प्रवाह, जिसे एक्सचेंज बंद होने के बाद जारी करते हैं।",
+   "कच्चा तेल और USD/INR, जो महँगाई की उम्मीदों और कंपनियों की लागत पर असर डालते हैं।",
+   "NIFTY 50 अपने 20 दिन के औसत (23,642.28) के आसपास कैसा व्यवहार करता है, जिसे कई चार्ट-पाठक छोटी अवधि का सपोर्ट/रेसिस्टेंस मानते हैं।"
+  ]
+ }
+}
