@@ -1,0 +1,381 @@
+{
+ "date": "2026-11-17",
+ "source": "fallback",
+ "facts": {
+  "date": "2026-11-17",
+  "source": "fallback",
+  "indices": {
+   "nifty50": {
+    "name": "NIFTY 50",
+    "date": "2026-11-17",
+    "last": 25387.400390625,
+    "change": 96.30078125,
+    "change_pct": 0.3807694514567528,
+    "changes": {
+     "1d": 0.3807694514567528,
+     "1w": 1.3685557380681335,
+     "1m": 10.392722734778449,
+     "6m": 7.375813185970781,
+     "1y": -0.4114983246320203
+    },
+    "ma": {
+     "20": 23869.032421875,
+     "50": 23385.956875,
+     "200": 23992.912734375
+    },
+    "rsi14": 78.1046545773059,
+    "high52": 26373.19921875,
+    "low52": 22179.900390625,
+    "from_high_pct": -3.7378810964433407,
+    "from_low_pct": 14.461291275030907,
+    "range_pos": 76.49109046288046,
+    "range_is_partial": false,
+    "vol": {
+     "daily_pct": 0.9301195733920803,
+     "annual_pct": 14.765190484493605
+    },
+    "similar": {
+     "date": "2026-02-26",
+     "close": 25496.55078125
+    }
+   },
+   "sensex": {
+    "name": "SENSEX",
+    "date": "2026-11-17",
+    "last": 82532.1875,
+    "change": 427.3984375,
+    "change_pct": 0.520552384800177,
+    "changes": {
+     "1d": 0.520552384800177,
+     "1w": 1.7576106151131476,
+     "1m": 11.056328803735926,
+     "6m": 9.694829833207397,
+     "1y": -0.8220671961353676
+    },
+    "ma": {
+     "20": 77218.71875,
+     "50": 75209.49265625,
+     "200": 77068.3466015625
+    },
+    "rsi14": 80.81114411739202,
+    "high52": 86159.0234375,
+    "low52": 71292.8828125,
+    "from_high_pct": -4.209467323095783,
+    "from_low_pct": 15.76497434822397,
+    "range_pos": 75.60337932360976,
+    "range_is_partial": false,
+    "vol": {
+     "daily_pct": 0.971787876187598,
+     "annual_pct": 15.426654285000069
+    },
+    "similar": {
+     "date": "2026-02-26",
+     "close": 82248.609375
+    }
+   },
+   "banknifty": {
+    "name": "BANK NIFTY",
+    "date": "2026-11-17",
+    "last": 62273.25,
+    "change": 697.3515625,
+    "change_pct": 1.1325073286714948,
+    "changes": {
+     "1d": 1.1325073286714948,
+     "1w": 4.23827757202937,
+     "1m": 11.57981025075927,
+     "6m": 15.942733920733687,
+     "1y": 7.596220177004476
+    },
+    "ma": {
+     "20": 57106.7271484375,
+     "50": 56294.70078125,
+     "200": 56688.4022265625
+    },
+    "rsi14": 80.10010836453742,
+    "high52": 62442.19921875,
+    "low52": 49954.8515625,
+    "from_high_pct": -0.27056897557071746,
+    "from_low_pct": 24.659063238508637,
+    "range_pos": 98.64703679755853,
+    "range_is_partial": false,
+    "vol": {
+     "daily_pct": 1.1543171226418292,
+     "annual_pct": 18.32421624368355
+    },
+    "similar": null
+   },
+   "niftyit": {
+    "name": "NIFTY IT",
+    "date": "2026-11-17",
+    "last": 31654.099609375,
+    "change": -286.951171875,
+    "change_pct": -0.8983773697371467,
+    "changes": {
+     "1d": -0.8983773697371467,
+     "1w": -2.5096272869355563,
+     "1m": 3.0413570542920043,
+     "6m": 14.205048772631601,
+     "1y": -9.862701468434565
+    },
+    "ma": {
+     "20": 32191.5451171875,
+     "50": 30280.1520703125,
+     "200": 30336.33130859375
+    },
+    "rsi14": 51.47623524121785,
+    "high52": 40301.3984375,
+    "low52": 25699.099609375,
+    "from_high_pct": -21.456572633665203,
+    "from_low_pct": 23.17201804933129,
+    "range_pos": 40.78125006269748,
+    "range_is_partial": false,
+    "vol": {
+     "daily_pct": 1.3571891881229128,
+     "annual_pct": 21.544710443033303
+    },
+    "similar": {
+     "date": "2026-09-01",
+     "close": 31496.69921875
+    }
+   }
+  },
+  "gainers": [
+   {
+    "symbol": "ADANIENT",
+    "change_pct": 3.24,
+    "last": 2745.1
+   },
+   {
+    "symbol": "EICHERMOT",
+    "change_pct": 3.01,
+    "last": 7828.0
+   },
+   {
+    "symbol": "MAXHEALTH",
+    "change_pct": 2.08,
+    "last": 1030.9
+   },
+   {
+    "symbol": "ASIANPAINT",
+    "change_pct": 2.02,
+    "last": 2625.0
+   },
+   {
+    "symbol": "AXISBANK",
+    "change_pct": 1.98,
+    "last": 1369.0
+   }
+  ],
+  "losers": [
+   {
+    "symbol": "HCLTECH",
+    "change_pct": -2.09,
+    "last": 1355.7
+   },
+   {
+    "symbol": "WIPRO",
+    "change_pct": -1.89,
+    "last": 189.89
+   },
+   {
+    "symbol": "POWERGRID",
+    "change_pct": -1.6,
+    "last": 258.0
+   },
+   {
+    "symbol": "HDFCLIFE",
+    "change_pct": -1.56,
+    "last": 595.05
+   },
+   {
+    "symbol": "ONGC",
+    "change_pct": -1.53,
+    "last": 223.52
+   }
+  ],
+  "commodities": {
+   "gold": {
+    "name": "Gold (USD/oz)",
+    "last": 3732.3,
+    "change_pct": -3.41
+   },
+   "silver": {
+    "name": "Silver (USD/oz)",
+    "last": 44.96,
+    "change_pct": -4.92
+   },
+   "crude": {
+    "name": "Crude oil WTI (USD/bbl)",
+    "last": 81.88,
+    "change_pct": -4.8
+   },
+   "usdinr": {
+    "name": "USD/INR",
+    "last": 93.45,
+    "change_pct": -0.55
+   }
+  }
+ },
+ "meta": {
+  "en": {
+   "method": "template",
+   "attempts": 0,
+   "violations": [],
+   "note": "no ANTHROPIC_API_KEY; used template"
+  },
+  "hi": {
+   "method": "template",
+   "attempts": 0,
+   "violations": [],
+   "note": "no ANTHROPIC_API_KEY; used template"
+  }
+ },
+ "en": {
+  "title": "NIFTY 50 closes higher at 25,387.40 (+0.38%): market wrap for 17 Nov 2026",
+  "summary": [
+   "NIFTY 50 ended up 0.38% at 25,387.40; SENSEX +0.52%, BANK NIFTY +1.13%, NIFTY IT -0.90%.",
+   "It sits 3.7% below its 52-week high, and RSI is 78 (in the 'stretched upward' zone)."
+  ],
+  "what_happened": [
+   "NIFTY 50 closed at 25,387.40 (+0.38%). SENSEX closed at 82,532.19 (+0.52%). BANK NIFTY closed at 62,273.25 (+1.13%). NIFTY IT closed at 31,654.10 (-0.90%).",
+   "Top NIFTY 50 gainers: ADANIENT (+3.24%), EICHERMOT (+3.01%), MAXHEALTH (+2.08%). Top losers: HCLTECH (-2.09%), WIPRO (-1.89%), POWERGRID (-1.60%).",
+   "Elsewhere: Gold (USD/oz) 3,732.30 (-3.41%); Silver (USD/oz) 44.96 (-4.92%); Crude oil WTI (USD/bbl) 81.88 (-4.80%); USD/INR 93.45 (-0.55%)."
+  ],
+  "history": [
+   "Over the past week, month, six months and year, NIFTY 50 has moved +1.37%, +10.39%, +7.38% and -0.41%.",
+   "Its 52-week range is 22,179.90 to 26,373.20; today's close is at 76% of that range, 3.7% below the high and 14.5% above the low.",
+   "The index closed above its 20-day average (23,869.03), above its 50-day average (23,385.96), above its 200-day average (23,992.91). Moving averages describe the recent trend; they do not forecast it.",
+   "Last time NIFTY 50 closed near this level was on 26 Feb 2026 (around 25,497).",
+   "Volatility over the last 20 sessions averaged 0.93% a day, or about 15% annualised."
+  ],
+  "news": [
+   {
+    "title": "Wall Street Sees More Mega Debt Deals Using Paramount Blueprint",
+    "impact": "neutral",
+    "why": "Included for context. Headlines like this can shift sentiment, but a single headline rarely tells the whole story.",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/wall-street-sees-more-mega-debt-deals-using-paramount-blueprint-11795027290809.html"
+   },
+   {
+    "title": "Anthropic IPO set to raise $90.4 billion, could become biggest stock market debut ever",
+    "impact": "neutral",
+    "why": "Included for context. Headlines like this can shift sentiment, but a single headline rarely tells the whole story.",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/anthropic-ipo-set-to-raise-90-4-billion-could-become-biggest-stock-market-debut-ever-11795025331762.html"
+   },
+   {
+    "title": "Anthropic’s IPO by the Numbers: Taking on SpaceX’s Record Debut",
+    "impact": "neutral",
+    "why": "Included for context. Headlines like this can shift sentiment, but a single headline rarely tells the whole story.",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/anthropics-ipo-by-the-numbers-taking-on-spacex-s-record-debut-11795026863722.html"
+   },
+   {
+    "title": "US Stock Market: Nasdaq preparing to roll out 23-hour-a-day trading from this date – Key facts for investors",
+    "impact": "neutral",
+    "why": "Included for context. Headlines like this can shift sentiment, but a single headline rarely tells the whole story.",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/us-stock-market-nasdaq-preparing-to-roll-out-23-hour-a-day-trading-from-this-date-key-facts-for-investors-11795019875609.html"
+   },
+   {
+    "title": "After 156% surge in a day, this American firm stock rises another 5%. What's driving the biotech share rally?",
+    "impact": "neutral",
+    "why": "Included for context. Headlines like this can shift sentiment, but a single headline rarely tells the whole story.",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/stock-market-news/after-156-surge-in-a-day-this-american-firm-stock-rises-another-5-whats-driving-the-biotech-share-rally-11795016822984.html"
+   }
+  ],
+  "pov": {
+   "bull": [
+    "NIFTY 50 is above its 200-day average, which some readers take as a sign the longer trend is intact.",
+    "Over six months the index is +7.38%, which shows participation has been broad enough to build gains.",
+    "One optimistic reading is that steady company earnings and regular domestic investor inflows have often supported markets."
+   ],
+   "bear": [
+    "RSI at 78 is in the 'stretched upward' zone, and markets can pause after such runs.",
+    "One cautious reading is that global events, higher crude oil or sharp currency moves can unsettle markets quickly."
+   ],
+   "closing": "These are only observations, not advice. Please do your own analysis before making any decision."
+  },
+  "watch": [
+   "Global cues: how US and Asian markets open, since Indian markets often respond to them.",
+   "FII and DII flows, which the exchanges publish after the close.",
+   "Crude oil and USD/INR, which affect inflation expectations and company costs.",
+   "How NIFTY 50 behaves around its 20-day average (23,869.03), a short-term support/resistance reference many chart readers use."
+  ]
+ },
+ "hi": {
+  "title": "NIFTY 50 25,387.40 पर बंद, बढ़त +0.38%: 17 नवंबर 2026 का बाज़ार सार",
+  "summary": [
+   "NIFTY 50 25,387.40 पर बंद हुआ, 0.38% की बढ़त; SENSEX +0.52%, BANK NIFTY +1.13%, NIFTY IT -0.90%।",
+   "यह अपने 52 हफ़्ते के उच्च स्तर से 3.7% नीचे है, और RSI 78 है ('ज़्यादा खिंचे हुए' क्षेत्र में)।"
+  ],
+  "what_happened": [
+   "NIFTY 50 25,387.40 पर बंद (+0.38%)। SENSEX 82,532.19 पर बंद (+0.52%)। BANK NIFTY 62,273.25 पर बंद (+1.13%)। NIFTY IT 31,654.10 पर बंद (-0.90%)।",
+   "NIFTY 50 के टॉप गेनर: ADANIENT (+3.24%), EICHERMOT (+3.01%), MAXHEALTH (+2.08%)। टॉप लूज़र: HCLTECH (-2.09%), WIPRO (-1.89%), POWERGRID (-1.60%)।",
+   "बाकी बाज़ार: Gold (USD/oz) 3,732.30 (-3.41%); Silver (USD/oz) 44.96 (-4.92%); Crude oil WTI (USD/bbl) 81.88 (-4.80%); USD/INR 93.45 (-0.55%)।"
+  ],
+  "history": [
+   "पिछले हफ़्ते, महीने, छह महीने और साल में NIFTY 50 का बदलाव +1.37%, +10.39%, +7.38% और -0.41% रहा है।",
+   "इसकी 52 हफ़्ते की रेंज 22,179.90 से 26,373.20 है; आज का बंद भाव इस रेंज के 76% पर है, यानी उच्च स्तर से 3.7% नीचे और निम्न स्तर से 14.5% ऊपर।",
+   "सूचकांक 20 दिन के औसत (23,869.03) से ऊपर, 50 दिन के औसत (23,385.96) से ऊपर, 200 दिन के औसत (23,992.91) से ऊपर बंद हुआ। मूविंग एवरेज हाल का रुझान बताते हैं, भविष्य का अनुमान नहीं।",
+   "पिछली बार NIFTY 50 इस स्तर के आसपास 26 फ़रवरी 2026 को बंद हुआ था (लगभग 25,497)।",
+   "पिछले 20 सत्रों में रोज़ का उतार-चढ़ाव औसतन 0.93% रहा, यानी सालाना आधार पर लगभग 15%।"
+  ],
+  "news": [
+   {
+    "title": "Wall Street Sees More Mega Debt Deals Using Paramount Blueprint",
+    "impact": "neutral",
+    "why": "संदर्भ के लिए शामिल। ऐसी ख़बरें माहौल बदल सकती हैं, पर अकेली हेडलाइन पूरी कहानी कम ही बताती है।",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/wall-street-sees-more-mega-debt-deals-using-paramount-blueprint-11795027290809.html"
+   },
+   {
+    "title": "Anthropic IPO set to raise $90.4 billion, could become biggest stock market debut ever",
+    "impact": "neutral",
+    "why": "संदर्भ के लिए शामिल। ऐसी ख़बरें माहौल बदल सकती हैं, पर अकेली हेडलाइन पूरी कहानी कम ही बताती है।",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/anthropic-ipo-set-to-raise-90-4-billion-could-become-biggest-stock-market-debut-ever-11795025331762.html"
+   },
+   {
+    "title": "Anthropic’s IPO by the Numbers: Taking on SpaceX’s Record Debut",
+    "impact": "neutral",
+    "why": "संदर्भ के लिए शामिल। ऐसी ख़बरें माहौल बदल सकती हैं, पर अकेली हेडलाइन पूरी कहानी कम ही बताती है।",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/anthropics-ipo-by-the-numbers-taking-on-spacex-s-record-debut-11795026863722.html"
+   },
+   {
+    "title": "US Stock Market: Nasdaq preparing to roll out 23-hour-a-day trading from this date – Key facts for investors",
+    "impact": "neutral",
+    "why": "संदर्भ के लिए शामिल। ऐसी ख़बरें माहौल बदल सकती हैं, पर अकेली हेडलाइन पूरी कहानी कम ही बताती है।",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/us-stock-market-nasdaq-preparing-to-roll-out-23-hour-a-day-trading-from-this-date-key-facts-for-investors-11795019875609.html"
+   },
+   {
+    "title": "After 156% surge in a day, this American firm stock rises another 5%. What's driving the biotech share rally?",
+    "impact": "neutral",
+    "why": "संदर्भ के लिए शामिल। ऐसी ख़बरें माहौल बदल सकती हैं, पर अकेली हेडलाइन पूरी कहानी कम ही बताती है।",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/stock-market-news/after-156-surge-in-a-day-this-american-firm-stock-rises-another-5-whats-driving-the-biotech-share-rally-11795016822984.html"
+   }
+  ],
+  "pov": {
+   "bull": [
+    "NIFTY 50 अपने 200 दिन के औसत से ऊपर है, जिसे कुछ लोग लंबे रुझान के मज़बूत रहने का संकेत मानते हैं।",
+    "छह महीने में सूचकांक +7.38% रहा है, जो बताता है कि बढ़त को काफ़ी लोगों का साथ मिला।",
+    "उम्मीद वाला एक नज़रिया यह है कि कंपनियों की स्थिर कमाई और घरेलू निवेशकों के नियमित निवेश ने अक्सर बाज़ार को सहारा दिया है।"
+   ],
+   "bear": [
+    "RSI 78 पर 'ज़्यादा खिंचे हुए' क्षेत्र में है, और ऐसी तेज़ी के बाद बाज़ार थम भी सकता है।",
+    "सावधानी वाला एक नज़रिया यह है कि वैश्विक घटनाएँ, कच्चे तेल की महँगाई या रुपये की तेज़ चाल बाज़ार को जल्दी बेचैन कर सकती हैं।"
+   ],
+   "closing": "ये केवल मेरे अवलोकन हैं, सलाह नहीं। कोई भी निर्णय लेने से पहले कृपया अपना विश्लेषण खुद करें।"
+  },
+  "watch": [
+   "वैश्विक संकेत: अमेरिकी और एशियाई बाज़ार कैसे खुलते हैं, क्योंकि भारतीय बाज़ार अक्सर उन पर प्रतिक्रिया देता है।",
+   "FII और DII का प्रवाह, जिसे एक्सचेंज बंद होने के बाद जारी करते हैं।",
+   "कच्चा तेल और USD/INR, जो महँगाई की उम्मीदों और कंपनियों की लागत पर असर डालते हैं।",
+   "NIFTY 50 अपने 20 दिन के औसत (23,869.03) के आसपास कैसा व्यवहार करता है, जिसे कई चार्ट-पाठक छोटी अवधि का सपोर्ट/रेसिस्टेंस मानते हैं।"
+  ]
+ }
+}
