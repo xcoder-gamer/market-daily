@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T21:02:22+00:00",
+ "updated": "2026-11-25T20:25:21+00:00",
  "date": "2026-11-23",
  "source": "fallback",
  "indices": {
@@ -99,23 +99,23 @@
  "commodities": {
   "gold": {
    "name": "Gold (USD/oz)",
-   "last": 3554.9,
-   "change_pct": -2.64
+   "last": 3595.1,
+   "change_pct": 0.93
   },
   "silver": {
    "name": "Silver (USD/oz)",
-   "last": 40.68,
-   "change_pct": -5.72
+   "last": 41.19,
+   "change_pct": 1.07
   },
   "crude": {
    "name": "Crude oil WTI (USD/bbl)",
-   "last": 81.44,
-   "change_pct": 1.58
+   "last": 83.95,
+   "change_pct": 2.32
   },
   "usdinr": {
    "name": "USD/INR",
-   "last": 92.9,
-   "change_pct": 0.24
+   "last": 92.22,
+   "change_pct": -0.75
   }
  },
  "gainers": [
