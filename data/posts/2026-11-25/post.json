@@ -1,0 +1,381 @@
+{
+ "date": "2026-11-25",
+ "source": "fallback",
+ "facts": {
+  "date": "2026-11-25",
+  "source": "fallback",
+  "indices": {
+   "nifty50": {
+    "name": "NIFTY 50",
+    "date": "2026-11-25",
+    "last": 25819.25,
+    "change": 469.599609375,
+    "change_pct": 1.8524894905401545,
+    "changes": {
+     "1d": 1.8524894905401545,
+     "1w": 1.7010391088899013,
+     "1m": 14.244469026548678,
+     "6m": 8.853335256872331,
+     "1y": -0.3504461724780139
+    },
+    "ma": {
+     "20": 24567.5625,
+     "50": 23567.85390625,
+     "200": 23999.9397265625
+    },
+    "rsi14": 71.67517130645359,
+    "high52": 26373.19921875,
+    "low52": 22179.900390625,
+    "from_high_pct": -2.100424806847745,
+    "from_low_pct": 16.408322604159586,
+    "range_pos": 86.78965555627491,
+    "range_is_partial": false,
+    "vol": {
+     "daily_pct": 1.021185808056429,
+     "annual_pct": 16.210822143035102
+    },
+    "similar": {
+     "date": "2026-02-23",
+     "close": 25713.0
+    }
+   },
+   "sensex": {
+    "name": "SENSEX",
+    "date": "2026-11-25",
+    "last": 83938.28125,
+    "change": 1502.2890625,
+    "change_pct": 1.822370329555878,
+    "changes": {
+     "1d": 1.822370329555878,
+     "1w": 1.703691362839499,
+     "1m": 14.789232733430557,
+     "6m": 11.301319308226887,
+     "1y": -0.7385045652102407
+    },
+    "ma": {
+     "20": 79608.968359375,
+     "50": 75933.58546875,
+     "200": 77092.204296875
+    },
+    "rsi14": 73.17232794141545,
+    "high52": 86159.0234375,
+    "low52": 71292.8828125,
+    "from_high_pct": -2.577492291461414,
+    "from_low_pct": 17.737252217388022,
+    "range_pos": 85.06174370659836,
+    "range_is_partial": false,
+    "vol": {
+     "daily_pct": 1.0597332869992049,
+     "annual_pct": 16.822744400741605
+    },
+    "similar": {
+     "date": "2026-02-18",
+     "close": 83734.25
+    }
+   },
+   "banknifty": {
+    "name": "BANK NIFTY",
+    "date": "2026-11-25",
+    "last": 63703.25,
+    "change": 1117.8984375,
+    "change_pct": 1.7861982230516382,
+    "changes": {
+     "1d": 1.7861982230516382,
+     "1w": 2.2963310891915834,
+     "1m": 17.344552951085944,
+     "6m": 17.848183683247143,
+     "1y": 8.86178445529129
+    },
+    "ma": {
+     "20": 59205.762109375,
+     "50": 56916.97671875,
+     "200": 56784.3012109375
+    },
+    "rsi14": 70.97376033474177,
+    "high52": 65193.3984375,
+    "low52": 49954.8515625,
+    "from_high_pct": -2.2857351713741147,
+    "from_low_pct": 27.521648063149517,
+    "range_pos": 90.22119070982613,
+    "range_is_partial": false,
+    "vol": {
+     "daily_pct": 1.4171178167980414,
+     "annual_pct": 22.49604793035845
+    },
+    "similar": null
+   },
+   "niftyit": {
+    "name": "NIFTY IT",
+    "date": "2026-11-25",
+    "last": 32207.55078125,
+    "change": 356.75,
+    "change_pct": 1.120066030521949,
+    "changes": {
+     "1d": 1.120066030521949,
+     "1w": 1.7484344167258747,
+     "1m": 0.6627518908909114,
+     "6m": 11.3966304582793,
+     "1y": -11.277019988981095
+    },
+    "ma": {
+     "20": 32055.25263671875,
+     "50": 30424.873125,
+     "200": 30164.158056640626
+    },
+    "rsi14": 57.22930526087413,
+    "high52": 40301.3984375,
+    "low52": 25699.099609375,
+    "from_high_pct": -20.083292317516122,
+    "from_low_pct": 25.325600004681583,
+    "range_pos": 44.57141473737881,
+    "range_is_partial": false,
+    "vol": {
+     "daily_pct": 1.2921203387019815,
+     "annual_pct": 20.511774481043943
+    },
+    "similar": {
+     "date": "2026-10-26",
+     "close": 32273.05078125
+    }
+   }
+  },
+  "gainers": [
+   {
+    "symbol": "HINDUNILVR",
+    "change_pct": 6.08,
+    "last": 2141.8
+   },
+   {
+    "symbol": "TATACONSUM",
+    "change_pct": 4.66,
+    "last": 1185.8
+   },
+   {
+    "symbol": "HDFCLIFE",
+    "change_pct": 4.58,
+    "last": 601.3
+   },
+   {
+    "symbol": "NESTLEIND",
+    "change_pct": 4.03,
+    "last": 1358.5
+   },
+   {
+    "symbol": "INDIGO",
+    "change_pct": 3.57,
+    "last": 5720.0
+   }
+  ],
+  "losers": [
+   {
+    "symbol": "TATASTEEL",
+    "change_pct": -2.27,
+    "last": 159.3
+   },
+   {
+    "symbol": "MAXHEALTH",
+    "change_pct": -1.22,
+    "last": 1076.3
+   },
+   {
+    "symbol": "HINDALCO",
+    "change_pct": -1.17,
+    "last": 889.9
+   },
+   {
+    "symbol": "JSWSTEEL",
+    "change_pct": -0.72,
+    "last": 1302.5
+   },
+   {
+    "symbol": "SHRIRAMFIN",
+    "change_pct": -0.6,
+    "last": 989.95
+   }
+  ],
+  "commodities": {
+   "gold": {
+    "name": "Gold (USD/oz)",
+    "last": 3593.4,
+    "change_pct": 1.63
+   },
+   "silver": {
+    "name": "Silver (USD/oz)",
+    "last": 41.75,
+    "change_pct": 4.24
+   },
+   "crude": {
+    "name": "Crude oil WTI (USD/bbl)",
+    "last": 84.91,
+    "change_pct": 1.47
+   },
+   "usdinr": {
+    "name": "USD/INR",
+    "last": 92.43,
+    "change_pct": -0.4
+   }
+  }
+ },
+ "meta": {
+  "en": {
+   "method": "template",
+   "attempts": 0,
+   "violations": [],
+   "note": "no ANTHROPIC_API_KEY; used template"
+  },
+  "hi": {
+   "method": "template",
+   "attempts": 0,
+   "violations": [],
+   "note": "no ANTHROPIC_API_KEY; used template"
+  }
+ },
+ "en": {
+  "title": "NIFTY 50 closes higher at 25,819.25 (+1.85%): market wrap for 25 Nov 2026",
+  "summary": [
+   "NIFTY 50 ended up 1.85% at 25,819.25; SENSEX +1.82%, BANK NIFTY +1.79%, NIFTY IT +1.12%.",
+   "It sits 2.1% below its 52-week high, and RSI is 72 (in the 'stretched upward' zone)."
+  ],
+  "what_happened": [
+   "NIFTY 50 closed at 25,819.25 (+1.85%). SENSEX closed at 83,938.28 (+1.82%). BANK NIFTY closed at 63,703.25 (+1.79%). NIFTY IT closed at 32,207.55 (+1.12%).",
+   "Top NIFTY 50 gainers: HINDUNILVR (+6.08%), TATACONSUM (+4.66%), HDFCLIFE (+4.58%). Top losers: TATASTEEL (-2.27%), MAXHEALTH (-1.22%), HINDALCO (-1.17%).",
+   "Elsewhere: Gold (USD/oz) 3,593.40 (+1.63%); Silver (USD/oz) 41.75 (+4.24%); Crude oil WTI (USD/bbl) 84.91 (+1.47%); USD/INR 92.43 (-0.40%)."
+  ],
+  "history": [
+   "Over the past week, month, six months and year, NIFTY 50 has moved +1.70%, +14.24%, +8.85% and -0.35%.",
+   "Its 52-week range is 22,179.90 to 26,373.20; today's close is at 87% of that range, 2.1% below the high and 16.4% above the low.",
+   "The index closed above its 20-day average (24,567.56), above its 50-day average (23,567.85), above its 200-day average (23,999.94). Moving averages describe the recent trend; they do not forecast it.",
+   "Last time NIFTY 50 closed near this level was on 23 Feb 2026 (around 25,713).",
+   "Volatility over the last 20 sessions averaged 1.02% a day, or about 16% annualised."
+  ],
+  "news": [
+   {
+    "title": "Gold drifts lower as Fed rate-hike fears loom",
+    "impact": "neutral",
+    "why": "Included for context. Headlines like this can shift sentiment, but a single headline rarely tells the whole story.",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/gold-drifts-lower-as-fed-rate-hike-fears-loom-11795720313647.html"
+   },
+   {
+    "title": "Bitcoin price today: World's largest crypto rebounds above $60,000, but remains down over 50% from peak",
+    "impact": "neutral",
+    "why": "Included for context. Headlines like this can shift sentiment, but a single headline rarely tells the whole story.",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/stock-market-news/bitcoin-price-today-worlds-largest-crypto-rebounds-above-60-000-but-remains-down-over-50-from-peak-11795716656707.html"
+   },
+   {
+    "title": "Buyback alert! Supriya Lifescience sets December 2 board meeting to consider share buyback; details here",
+    "impact": "neutral",
+    "why": "Included for context. Headlines like this can shift sentiment, but a single headline rarely tells the whole story.",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/stock-market-news/buyback-alert-supriya-lifescience-sets-december-2-board-meeting-to-consider-share-buyback-details-here-11795714356991.html"
+   },
+   {
+    "title": "Nifty 50 to hit 29,000? J.P. Morgan calls Indian stocks a 'safe haven' from AI trades; sees 12% upside. Key reasons",
+    "impact": "neutral",
+    "why": "Included for context. Headlines like this can shift sentiment, but a single headline rarely tells the whole story.",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/stock-market-news/nifty-50-to-hit-29-000-j-p-morgan-calls-indian-stocks-a-safe-haven-from-ai-trades-sees-12-upside-key-reasons-11795710323279.html"
+   },
+   {
+    "title": "Ashiana Housing JV buys 10-acre land in Chennai for senior living project, eyes Rs 1,100 cr revenue",
+    "impact": "neutral",
+    "why": "Included for context. Headlines like this can shift sentiment, but a single headline rarely tells the whole story.",
+    "source": "Economic Times",
+    "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/ashiana-housing-jv-buys-10-acre-land-in-chennai-for-senior-living-project-eyes-rs-1100-cr-revenue/articleshow/136197134.cms"
+   }
+  ],
+  "pov": {
+   "bull": [
+    "NIFTY 50 is above its 200-day average, which some readers take as a sign the longer trend is intact.",
+    "Over six months the index is +8.85%, which shows participation has been broad enough to build gains.",
+    "One optimistic reading is that steady company earnings and regular domestic investor inflows have often supported markets."
+   ],
+   "bear": [
+    "RSI at 72 is in the 'stretched upward' zone, and markets can pause after such runs.",
+    "One cautious reading is that global events, higher crude oil or sharp currency moves can unsettle markets quickly."
+   ],
+   "closing": "These are only observations, not advice. Please do your own analysis before making any decision."
+  },
+  "watch": [
+   "Global cues: how US and Asian markets open, since Indian markets often respond to them.",
+   "FII and DII flows, which the exchanges publish after the close.",
+   "Crude oil and USD/INR, which affect inflation expectations and company costs.",
+   "How NIFTY 50 behaves around its 20-day average (24,567.56), a short-term support/resistance reference many chart readers use."
+  ]
+ },
+ "hi": {
+  "title": "NIFTY 50 25,819.25 पर बंद, बढ़त +1.85%: 25 नवंबर 2026 का बाज़ार सार",
+  "summary": [
+   "NIFTY 50 25,819.25 पर बंद हुआ, 1.85% की बढ़त; SENSEX +1.82%, BANK NIFTY +1.79%, NIFTY IT +1.12%।",
+   "यह अपने 52 हफ़्ते के उच्च स्तर से 2.1% नीचे है, और RSI 72 है ('ज़्यादा खिंचे हुए' क्षेत्र में)।"
+  ],
+  "what_happened": [
+   "NIFTY 50 25,819.25 पर बंद (+1.85%)। SENSEX 83,938.28 पर बंद (+1.82%)। BANK NIFTY 63,703.25 पर बंद (+1.79%)। NIFTY IT 32,207.55 पर बंद (+1.12%)।",
+   "NIFTY 50 के टॉप गेनर: HINDUNILVR (+6.08%), TATACONSUM (+4.66%), HDFCLIFE (+4.58%)। टॉप लूज़र: TATASTEEL (-2.27%), MAXHEALTH (-1.22%), HINDALCO (-1.17%)।",
+   "बाकी बाज़ार: Gold (USD/oz) 3,593.40 (+1.63%); Silver (USD/oz) 41.75 (+4.24%); Crude oil WTI (USD/bbl) 84.91 (+1.47%); USD/INR 92.43 (-0.40%)।"
+  ],
+  "history": [
+   "पिछले हफ़्ते, महीने, छह महीने और साल में NIFTY 50 का बदलाव +1.70%, +14.24%, +8.85% और -0.35% रहा है।",
+   "इसकी 52 हफ़्ते की रेंज 22,179.90 से 26,373.20 है; आज का बंद भाव इस रेंज के 87% पर है, यानी उच्च स्तर से 2.1% नीचे और निम्न स्तर से 16.4% ऊपर।",
+   "सूचकांक 20 दिन के औसत (24,567.56) से ऊपर, 50 दिन के औसत (23,567.85) से ऊपर, 200 दिन के औसत (23,999.94) से ऊपर बंद हुआ। मूविंग एवरेज हाल का रुझान बताते हैं, भविष्य का अनुमान नहीं।",
+   "पिछली बार NIFTY 50 इस स्तर के आसपास 23 फ़रवरी 2026 को बंद हुआ था (लगभग 25,713)।",
+   "पिछले 20 सत्रों में रोज़ का उतार-चढ़ाव औसतन 1.02% रहा, यानी सालाना आधार पर लगभग 16%।"
+  ],
+  "news": [
+   {
+    "title": "Gold drifts lower as Fed rate-hike fears loom",
+    "impact": "neutral",
+    "why": "संदर्भ के लिए शामिल। ऐसी ख़बरें माहौल बदल सकती हैं, पर अकेली हेडलाइन पूरी कहानी कम ही बताती है।",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/gold-drifts-lower-as-fed-rate-hike-fears-loom-11795720313647.html"
+   },
+   {
+    "title": "Bitcoin price today: World's largest crypto rebounds above $60,000, but remains down over 50% from peak",
+    "impact": "neutral",
+    "why": "संदर्भ के लिए शामिल। ऐसी ख़बरें माहौल बदल सकती हैं, पर अकेली हेडलाइन पूरी कहानी कम ही बताती है।",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/stock-market-news/bitcoin-price-today-worlds-largest-crypto-rebounds-above-60-000-but-remains-down-over-50-from-peak-11795716656707.html"
+   },
+   {
+    "title": "Buyback alert! Supriya Lifescience sets December 2 board meeting to consider share buyback; details here",
+    "impact": "neutral",
+    "why": "संदर्भ के लिए शामिल। ऐसी ख़बरें माहौल बदल सकती हैं, पर अकेली हेडलाइन पूरी कहानी कम ही बताती है।",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/stock-market-news/buyback-alert-supriya-lifescience-sets-december-2-board-meeting-to-consider-share-buyback-details-here-11795714356991.html"
+   },
+   {
+    "title": "Nifty 50 to hit 29,000? J.P. Morgan calls Indian stocks a 'safe haven' from AI trades; sees 12% upside. Key reasons",
+    "impact": "neutral",
+    "why": "संदर्भ के लिए शामिल। ऐसी ख़बरें माहौल बदल सकती हैं, पर अकेली हेडलाइन पूरी कहानी कम ही बताती है।",
+    "source": "LiveMint",
+    "url": "https://www.livemint.com/market/stock-market-news/nifty-50-to-hit-29-000-j-p-morgan-calls-indian-stocks-a-safe-haven-from-ai-trades-sees-12-upside-key-reasons-11795710323279.html"
+   },
+   {
+    "title": "Ashiana Housing JV buys 10-acre land in Chennai for senior living project, eyes Rs 1,100 cr revenue",
+    "impact": "neutral",
+    "why": "संदर्भ के लिए शामिल। ऐसी ख़बरें माहौल बदल सकती हैं, पर अकेली हेडलाइन पूरी कहानी कम ही बताती है।",
+    "source": "Economic Times",
+    "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/ashiana-housing-jv-buys-10-acre-land-in-chennai-for-senior-living-project-eyes-rs-1100-cr-revenue/articleshow/136197134.cms"
+   }
+  ],
+  "pov": {
+   "bull": [
+    "NIFTY 50 अपने 200 दिन के औसत से ऊपर है, जिसे कुछ लोग लंबे रुझान के मज़बूत रहने का संकेत मानते हैं।",
+    "छह महीने में सूचकांक +8.85% रहा है, जो बताता है कि बढ़त को काफ़ी लोगों का साथ मिला।",
+    "उम्मीद वाला एक नज़रिया यह है कि कंपनियों की स्थिर कमाई और घरेलू निवेशकों के नियमित निवेश ने अक्सर बाज़ार को सहारा दिया है।"
+   ],
+   "bear": [
+    "RSI 72 पर 'ज़्यादा खिंचे हुए' क्षेत्र में है, और ऐसी तेज़ी के बाद बाज़ार थम भी सकता है।",
+    "सावधानी वाला एक नज़रिया यह है कि वैश्विक घटनाएँ, कच्चे तेल की महँगाई या रुपये की तेज़ चाल बाज़ार को जल्दी बेचैन कर सकती हैं।"
+   ],
+   "closing": "ये केवल मेरे अवलोकन हैं, सलाह नहीं। कोई भी निर्णय लेने से पहले कृपया अपना विश्लेषण खुद करें।"
+  },
+  "watch": [
+   "वैश्विक संकेत: अमेरिकी और एशियाई बाज़ार कैसे खुलते हैं, क्योंकि भारतीय बाज़ार अक्सर उन पर प्रतिक्रिया देता है।",
+   "FII और DII का प्रवाह, जिसे एक्सचेंज बंद होने के बाद जारी करते हैं।",
+   "कच्चा तेल और USD/INR, जो महँगाई की उम्मीदों और कंपनियों की लागत पर असर डालते हैं।",
+   "NIFTY 50 अपने 20 दिन के औसत (24,567.56) के आसपास कैसा व्यवहार करता है, जिसे कई चार्ट-पाठक छोटी अवधि का सपोर्ट/रेसिस्टेंस मानते हैं।"
+  ]
+ }
+}
